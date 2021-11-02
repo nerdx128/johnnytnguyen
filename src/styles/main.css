@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+.bg-main {
+    background-image: url('../assets/deadpool-half-face.png');
+    @apply bg-right bg-contain bg-no-repeat h-full;
+}
+.active {
+    @apply border-b-2 border-white border-solid;
+}
+
+.navbar-items {
+    @apply cursor-pointer;
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+    src: url("fonts/LemonMilkRegular.otf") format('opentype');
+}
+
+@tailwind utilities;
