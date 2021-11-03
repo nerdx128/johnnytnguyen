@@ -13,7 +13,6 @@ export default function App() {
     <div className="App flex flex-col h-full w-full">
       <Router>
         <ScrollToTop/>
-        <Navbar/>
           <Me/>
           <Resume/>
           <Projects/>

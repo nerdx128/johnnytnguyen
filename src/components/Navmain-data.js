@@ -2,20 +2,11 @@ import React from "react";
 
 export const NavmainDataLeft = [
     {
-        title: "About Me",
-        id: "about-me",
-        path: "me",
+        title: "Hobbies",
+        id: "hobbies",
+        path: "hobbies",
         cName: "nav-item"
     },
-    {
-        title: "Resume",
-        id: "resume",
-        path: "resume",
-        cName: "nav-item"
-    }
-]
-
-export const NavmainDataRight = [
     {
         title: "Projects",
         id: "projects",
@@ -23,9 +14,18 @@ export const NavmainDataRight = [
         cName: "nav-item"
     },
     {
-        title: "Hobbies",
-        id: "hobbies",
-        path: "hobbies",
+        title: "Resume",
+        id: "resume",
+        path: "resume",
+        cName: "nav-item"
+    },
+    {
+        title: "About Me",
+        id: "about-me",
+        path: "me",
         cName: "nav-item"
     }
+]
+
+export const NavmainDataRight = [
 ]

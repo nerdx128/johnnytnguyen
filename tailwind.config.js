@@ -13,6 +13,12 @@ module.exports = {
         '80': '80',
         '90': '90',
         '100': '100',
+      },
+      width: {
+        'h-screen': '100vh'
+      },
+      lineHeight: {
+        'full': '100%'
       }
     },
   },

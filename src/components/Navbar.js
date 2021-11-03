@@ -4,7 +4,7 @@ import Navmain from "./Navmain";
 export default class Navbar extends React.Component{
     render() {
         return (
-            <nav className='nav-info flex flex-col fixed top w-full bg-transparent z-100'>
+            <nav className='nav-info flex flex-col fixed top bg-transparent z-100 navbar-rotate-right'>
                 <Navmain/>
             </nav>
         );

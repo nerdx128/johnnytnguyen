@@ -6,11 +6,16 @@
     @apply bg-right bg-contain bg-no-repeat h-full;
 }
 .active {
-    @apply border-b-2 border-white border-solid;
+    @apply border-b-2 bg-gray-200 border-solid text-gray-500;
 }
 
 .navbar-items {
-    @apply cursor-pointer;
+    @apply cursor-pointer whitespace-nowrap px-3 flex items-center leading-full h-full;
+}
+
+.navbar-rotate-right {
+    transform: rotate(-90deg) translateX(-100%);
+    @apply origin-top-left w-h-screen;
 }
 
 @font-face {

@@ -8,6 +8,7 @@ import Me from "./pages/Me";
 
 ReactDOM.render(
   <React.StrictMode>
+      <Navbar/>
       <App />
   </React.StrictMode>,
   document.getElementById('root')
