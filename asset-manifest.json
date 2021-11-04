@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/johnnytnguyen/static/css/main.b9834477.chunk.css",
+    "main.css": "/johnnytnguyen/static/css/main.88fb4261.chunk.css",
     "main.js": "/johnnytnguyen/static/js/main.fd5ca93c.chunk.js",
     "main.js.map": "/johnnytnguyen/static/js/main.fd5ca93c.chunk.js.map",
     "runtime-main.js": "/johnnytnguyen/static/js/runtime-main.fcd1ca15.js",
@@ -8,7 +8,7 @@
     "static/js/2.ff47f8e3.chunk.js": "/johnnytnguyen/static/js/2.ff47f8e3.chunk.js",
     "static/js/2.ff47f8e3.chunk.js.map": "/johnnytnguyen/static/js/2.ff47f8e3.chunk.js.map",
     "index.html": "/johnnytnguyen/index.html",
-    "static/css/main.b9834477.chunk.css.map": "/johnnytnguyen/static/css/main.b9834477.chunk.css.map",
+    "static/css/main.88fb4261.chunk.css.map": "/johnnytnguyen/static/css/main.88fb4261.chunk.css.map",
     "static/js/2.ff47f8e3.chunk.js.LICENSE.txt": "/johnnytnguyen/static/js/2.ff47f8e3.chunk.js.LICENSE.txt",
     "static/media/Code.bff50710.mp4": "/johnnytnguyen/static/media/Code.bff50710.mp4",
     "static/media/main.css": "/johnnytnguyen/static/media/deadpool-half-face.c43be259.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.fcd1ca15.js",
     "static/js/2.ff47f8e3.chunk.js",
-    "static/css/main.b9834477.chunk.css",
+    "static/css/main.88fb4261.chunk.css",
     "static/js/main.fd5ca93c.chunk.js"
   ]
 }
