@@ -6,12 +6,7 @@
     font-family: 'LemonMilk';
     src: url("fonts/LemonMilkRegular.otf") format('opentype');
 }
-html {
-    @apply overflow-hidden w-full;
-}
-body {
-    @apply fixed h-full w-full overflow-y-scroll;
-}
+
 .bg-main {
     background-image: url('../assets/deadpool-half-face.png');
     @apply bg-right bg-contain bg-no-repeat h-full;
@@ -36,8 +31,7 @@ body {
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-    background: black;
-    opacity: 30%;
+    background: rgba(0,0,0,.3);
 }
 
 /* Handle */
@@ -71,7 +65,9 @@ only screen and (        min-device-pixel-ratio: 3.5),
 only screen and (                min-resolution: 496dpi),
 only screen and (                min-resolution: 3.5dppx)
 {
-
+    .navbar-rotate-right {
+        @apply w-h-screen;
+    }
 }
 
 @tailwind utilities;
