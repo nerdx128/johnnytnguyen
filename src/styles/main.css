@@ -6,6 +6,12 @@
     font-family: 'LemonMilk';
     src: url("fonts/LemonMilkRegular.otf") format('opentype');
 }
+html {
+    @apply overflow-hidden w-full;
+}
+body {
+    @apply fixed h-full w-full overflow-y-scroll;
+}
 .bg-main {
     background-image: url('../assets/deadpool-half-face.png');
     @apply bg-right bg-contain bg-no-repeat h-full;
