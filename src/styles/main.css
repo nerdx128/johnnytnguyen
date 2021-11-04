@@ -1,6 +1,11 @@
 @tailwind base;
 
 @tailwind components;
+
+@font-face {
+    font-family: 'LemonMilk';
+    src: url("fonts/LemonMilkRegular.otf") format('opentype');
+}
 .bg-main {
     background-image: url('../assets/deadpool-half-face.png');
     @apply bg-right bg-contain bg-no-repeat h-full;
@@ -18,9 +23,29 @@
     @apply origin-top-left w-full;
 }
 
-@font-face {
-    font-family: 'LemonMilk';
-    src: url("fonts/LemonMilkRegular.otf") format('opentype');
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx),
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (   min--moz-device-pixel-ratio: 3),
+only screen and (     -o-min-device-pixel-ratio: 3/1),
+only screen and (        min-device-pixel-ratio: 3),
+only screen and (                min-resolution: 384dpi),
+only screen and (                min-resolution: 3dppx),
+only screen and (-webkit-min-device-pixel-ratio: 3.5),
+only screen and (   min--moz-device-pixel-ratio: 3.5),
+only screen and (     -o-min-device-pixel-ratio: 3.5/1),
+only screen and (        min-device-pixel-ratio: 3.5),
+only screen and (                min-resolution: 496dpi),
+only screen and (                min-resolution: 3.5dppx)
+{
+    .navbar-rotate-right {
+        @apply w-h-screen;
+    }
 }
 
 @tailwind utilities;
