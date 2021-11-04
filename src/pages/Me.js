@@ -8,7 +8,7 @@ const Me = () =>{
             <div className="absolute inset-0 w-full h-full overflow-hidden opacity-50 z-1">
                 <video className="w-full h-full object-cover" autoPlay loop muted src={Video} type='video/mp4'/>
             </div>
-            <div className='flex flex-col relative justify-center items-center w-full h-full z-1'>
+            <div className='flex flex-col relative justify-center pl-9 items-center w-full h-full z-1'>
                 <h1 className='text-3xl md:text-5xl'>Johnny T. Nguyen</h1>
                 <h2 className='text-sm'>Senior Software Architect/Developer</h2>
             </div>
