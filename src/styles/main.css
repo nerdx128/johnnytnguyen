@@ -15,7 +15,7 @@
 
 .navbar-rotate-right {
     transform: rotate(-90deg) translateX(-100%);
-    @apply origin-top-left w-h-screen;
+    @apply origin-top-left w-full;
 }
 
 @font-face {
