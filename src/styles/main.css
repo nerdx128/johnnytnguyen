@@ -26,7 +26,29 @@ body {
 
 .navbar-rotate-right {
     transform: rotate(-90deg) translateX(-100%);
-    @apply origin-top-left w-full;
+    @apply origin-top-left w-h-screen;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    background: black;
+    opacity: 30%;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: Gray;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: lightslategray;
 }
 
 @media
@@ -49,9 +71,7 @@ only screen and (        min-device-pixel-ratio: 3.5),
 only screen and (                min-resolution: 496dpi),
 only screen and (                min-resolution: 3.5dppx)
 {
-    .navbar-rotate-right {
-        @apply w-h-screen;
-    }
+
 }
 
 @tailwind utilities;
