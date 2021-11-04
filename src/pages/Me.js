@@ -9,7 +9,7 @@ const Me = () =>{
                 <video className="w-full h-full object-cover" autoPlay loop muted src={Video} type='video/mp4'/>
             </div>
             <div className='flex flex-col relative justify-center items-center w-full h-full z-1'>
-                <h1 className='text-5xl'>Johnny T. Nguyen</h1>
+                <h1 className='text-3xl md:text-5xl'>Johnny T. Nguyen</h1>
                 <h2 className='text-sm'>Senior Software Architect/Developer</h2>
             </div>
         </main>
