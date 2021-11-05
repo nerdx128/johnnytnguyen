@@ -9,7 +9,7 @@ export default function Navmain(){
             {NavmainDataLeft.map((item, index)=>{
                 const id = "nav-info-" + item.id;
                 return (
-                    <NavLinkScroll className="navbar-items" spy={true} smooth={true} activeClass="active" to={item.path}>{item.title}</NavLinkScroll>
+                    <NavLinkScroll className="navbar-items" spy={true} smooth={true} duration={500} activeClass="active" to={item.path}>{item.title}</NavLinkScroll>
                 );
             })}
         </nav>
