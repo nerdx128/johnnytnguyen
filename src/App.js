@@ -11,7 +11,7 @@ import Hobbies from "./pages/Hobbies";
 
 export default function App() {
   return (
-    <main className="App flex flex-col h-full w-full">
+    <main className="App flex flex-col h-full w-full overflow-hidden">
       <Router>
         <ScrollToTop/>
           <Home/>
