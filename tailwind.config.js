@@ -19,6 +19,10 @@ module.exports = {
       },
       lineHeight: {
         'full': '100%'
+      },
+      spacing: {
+        '35': '8.75rem',
+        '70': '17.5rem'
       }
     },
   },

@@ -48,3 +48,36 @@
 .stares {
     @apply relative left-24 text-xl md:text-2xl text-yellow-100;
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx),
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (   min--moz-device-pixel-ratio: 3),
+only screen and (     -o-min-device-pixel-ratio: 3/1),
+only screen and (        min-device-pixel-ratio: 3),
+only screen and (                min-resolution: 384dpi),
+only screen and (                min-resolution: 3dppx),
+only screen and (-webkit-min-device-pixel-ratio: 3.5),
+only screen and (   min--moz-device-pixel-ratio: 3.5),
+only screen and (     -o-min-device-pixel-ratio: 3.5/1),
+only screen and (        min-device-pixel-ratio: 3.5),
+only screen and (                min-resolution: 496dpi),
+only screen and (                min-resolution: 3.5dppx) {
+
+    .caps {
+        @apply -top-2 left-12;
+    }
+    .existence {
+        @apply left-8;
+    }
+    .stares {
+        @apply left-12;
+    }
+
+
+}

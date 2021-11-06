@@ -1,10 +1,18 @@
 import React from "react";
 import Video from '../assets/binary-rain.mp4';
+import {isMobile} from "react-device-detect";
 
 
 const Home = () =>{
+    const homeContainerCss = [
+        'flex',
+        isMobile ? 'w-screen' : 'w-full',
+        'h-screen',
+        'z-10',
+        isMobile ? '-mt-35' : ''
+    ].join(' ');
     return (
-        <section id='home' className='flex w-full h-screen z-10'>
+        <section id='home' className={homeContainerCss}>
             <div className="absolute inset-0 w-full h-full overflow-hidden opacity-90 z-1">
                 <video className="w-full h-full object-cover" autoPlay loop muted src={Video} type='video/mp4'/>
             </div>

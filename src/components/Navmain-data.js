@@ -1,6 +1,4 @@
-import React from "react";
-
-export const NavmainDataLeft = [
+export const NavmainData = [
     {
         title: "Projects",
         id: "projects",

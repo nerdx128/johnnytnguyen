@@ -1,5 +1,4 @@
 import React from "react";
-import Video from "../assets/Code.mp4";
 
 
 const Experience = () =>{
