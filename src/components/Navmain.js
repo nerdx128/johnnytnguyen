@@ -1,5 +1,5 @@
 import React from "react";
-import {NavmainData} from "./Navmain-data";
+import { NavmainData } from "./Navmain-data";
 import { Link as NavLinkScroll } from "react-scroll";
 
 
