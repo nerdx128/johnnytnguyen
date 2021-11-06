@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/johnnytnguyen/static/css/main.63a06a9d.chunk.css",
-    "main.js": "/johnnytnguyen/static/js/main.a16e2e33.chunk.js",
-    "main.js.map": "/johnnytnguyen/static/js/main.a16e2e33.chunk.js.map",
+    "main.js": "/johnnytnguyen/static/js/main.fab03740.chunk.js",
+    "main.js.map": "/johnnytnguyen/static/js/main.fab03740.chunk.js.map",
     "runtime-main.js": "/johnnytnguyen/static/js/runtime-main.fcd1ca15.js",
     "runtime-main.js.map": "/johnnytnguyen/static/js/runtime-main.fcd1ca15.js.map",
-    "static/js/2.646380bd.chunk.js": "/johnnytnguyen/static/js/2.646380bd.chunk.js",
-    "static/js/2.646380bd.chunk.js.map": "/johnnytnguyen/static/js/2.646380bd.chunk.js.map",
+    "static/js/2.f8b95000.chunk.js": "/johnnytnguyen/static/js/2.f8b95000.chunk.js",
+    "static/js/2.f8b95000.chunk.js.map": "/johnnytnguyen/static/js/2.f8b95000.chunk.js.map",
     "index.html": "/johnnytnguyen/index.html",
     "static/css/main.63a06a9d.chunk.css.map": "/johnnytnguyen/static/css/main.63a06a9d.chunk.css.map",
-    "static/js/2.646380bd.chunk.js.LICENSE.txt": "/johnnytnguyen/static/js/2.646380bd.chunk.js.LICENSE.txt",
+    "static/js/2.f8b95000.chunk.js.LICENSE.txt": "/johnnytnguyen/static/js/2.f8b95000.chunk.js.LICENSE.txt",
     "static/media/Code.bff50710.mp4": "/johnnytnguyen/static/media/Code.bff50710.mp4",
     "static/media/main.css": "/johnnytnguyen/static/media/deadpool-half-face.c43be259.png",
     "static/media/binary-rain.c14e59fb.mp4": "/johnnytnguyen/static/media/binary-rain.c14e59fb.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.fcd1ca15.js",
-    "static/js/2.646380bd.chunk.js",
+    "static/js/2.f8b95000.chunk.js",
     "static/css/main.63a06a9d.chunk.css",
-    "static/js/main.a16e2e33.chunk.js"
+    "static/js/main.fab03740.chunk.js"
   ]
 }
