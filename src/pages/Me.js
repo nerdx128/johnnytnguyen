@@ -4,7 +4,7 @@ import Video from '../assets/binary-rain.mp4';
 
 const Me = () =>{
     return (
-        <section id='me' className='flex bg-gray-700 w-screen h-screen z-10'>
+        <section id='me' className='flex bg-gray-700 bg-me w-screen h-screen z-10'>
             <div className='flex flex-col relative justify-center items-center pl-9 py-16 w-full h-full z-1'>
                 <p className='absolute top-24 text-3xl md:text-5xl text-blue-200'>Who am I?</p>
                 <ul className='flex flex-col relative items-center '>

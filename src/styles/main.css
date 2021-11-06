@@ -11,10 +11,16 @@
     background-image: url('../assets/deadpool-half-face.png');
     @apply bg-right bg-contain bg-no-repeat h-full;
 }
+.bg-me {
+    background-image: url('../assets/deadpool-half-face.png');
+    @apply bg-right bg-contain bg-no-repeat h-full;
+}
 .active {
     @apply border-b-2 bg-gray-200 border-solid text-gray-500;
 }
-
+.nav-info {
+    @apply  flex flex-col fixed bg-transparent z-100;
+}
 .navbar-items {
     @apply cursor-pointer whitespace-nowrap px-3 flex items-center leading-full h-full;
 }
@@ -23,9 +29,11 @@
     transform: rotate(-90deg) translateX(-100%);
     @apply origin-top-left w-h-screen;
 }
-::-webkit-scrollbar {
-    width: 10px;
+.navbar-rotate-right-mobile {
+    transform: rotate(-90deg) translateX(-100%);
+    @apply origin-top-left h-full;
 }
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -46,8 +54,12 @@ only screen and (        min-device-pixel-ratio: 3.5),
 only screen and (                min-resolution: 496dpi),
 only screen and (                min-resolution: 3.5dppx)
 {
-    .navbar-rotate-right {
+    .nav-info {
 
+    }
+    .navbar-rotate-right-mobile {
+        transform: rotate(0deg) translateX(0%);
+        @apply w-full;
     }
 }
 
