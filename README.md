@@ -24,6 +24,7 @@ npm i react-material-ui-carousel --save
 ```
 
 [Tailwindcss](https://www.npmjs.com/package/tailwindcss)
+
 [Tailwindcss Website](https://tailwindcss.com/)
 
 Tailwindcss does require a little bit of other extra work to install. Requires PostCSS, but since Create React App 
