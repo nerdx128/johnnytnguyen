@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# My personal website app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is personal playground to test out packages and ideas with React.js
 
-## Available Scripts
+## Packages that I've played with and used
 
-In the project directory, you can run:
+ [React.js](https://www.npmjs.com/package/react)
+```shell
+npm i react
+```
 
-### `npm start`
+[Material UI](https://www.npmjs.com/package/@material-ui/core)
+```shell
+npm i @material-ui/core
+npm i @material-ui/icons
+npm i @material-ui/styles
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[React Material UI Carousel](https://www.npmjs.com/package/react-material-ui-carousel)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+React Material UI Carousel requires Material UI
+```shell
+npm i react-material-ui-carousel --save
+```
 
-### `npm test`
+[Tailwindcss](https://www.npmjs.com/package/tailwindcss)
+[Tailwindcss Website](https://tailwindcss.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tailwindcss does require a little bit of other extra work to install. Requires PostCSS, but since Create React App 
+doesn't support PostCSS 8 yet, you will need the Tailwind CSS v2.0 PostCSS 7 Compatibility build. Tailwind CSS
+also require autoprefixer (We'll use v9) and Craco. You can go [here](https://tailwindcss.com/docs/guides/create-react-app)
+for more info.
 
-### `npm run build`
+```shell
+npm i -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+npm install @craco/craco
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
