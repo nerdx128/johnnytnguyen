@@ -6,39 +6,8 @@ import Experience from "./pages/Experience";
 import ScrollToTop from "./components/ScrollToTop";
 import Projects from "./pages/Projects";
 import {isMobile} from "react-device-detect";
-import SwipeableViews from "react-swipeable-views";
+import Hobbies from "./pages/Hobbies";
 
-const WrappedComponents = () => {
-    const appCss = [
-        'flex',
-        'flex-col',
-        'h-full',
-        'w-screen',
-        'overflow-hidden'
-        // isMobile ? 'pt-35' : ''
-    ].join(' ');
-    return (
-        <div className={appCss}>
-            <ScrollToTop/>
-            <Home/>
-            <Me/>
-            <Experience/>
-            <Projects/>
-        </div>
-    )
-}
-
-const Swipe = () => {
-
-    return (
-        <SwipeableViews slideClassName="flex flex-row w-screen overflow-hidden">
-            <Home/>
-            <Me/>
-            <Experience/>
-            <Projects/>
-        </SwipeableViews>
-    )
-}
 
 export default function App() {
     const appCss = [
@@ -46,14 +15,18 @@ export default function App() {
         'flex-col',
         'h-full',
         'w-screen',
-        'overflow-hidden'
-        // isMobile ? 'pt-35' : ''
+        'overflow-hidden',
+        isMobile ? '' : ''
     ].join(' ');
 
     return (
         <main className={appCss + ' App'}>
             <Router>
-                {isMobile ? <Swipe/> : <WrappedComponents/> }
+                <ScrollToTop/>
+                <Home/>
+                <Me/>
+                <Experience/>
+                <Projects/>
                 <Routes>
                 </Routes>
             </Router>

@@ -1,13 +1,20 @@
 import React from "react";
-
+import EducationCard from "../components/Experience/EducationCard";
+import { EducationData } from "../components/Experience/Education-data"
+import EducationAccordion from "../components/Experience/EducationAccordion";
 
 const Experience = () =>{
     return (
-        <section id="experience" className='flex bg-main bg-gray-400 w-full h-screen'>
-            <div className='flex flex-col text-white justify-center items-center w-full h-full'>
-                <h1 className='text-3xl md:text-5xl'>Johnny T. Nguyen</h1>
-                <h2 className='text-sm'>My Resume Page</h2>
+        <section id="experience" className='flex flex-col bg-main bg-gray-400 w-full h-screen'>
+            <h2 className="mt-6 pl-16">My Edumahcation</h2>
+            <div className="h-32 p-6 ml-9 flex flex-col">
+                 <EducationAccordion schools={EducationData}/>
             </div>
+            {/*<div className="w-full h-full p-8 ml-9 flex flex-row">
+                {EducationData.map((school, index) => {
+                    return <EducationCard key={index} school={school}/>
+                })}
+            </div>*/}
         </section>
     );
 }

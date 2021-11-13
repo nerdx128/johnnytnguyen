@@ -1,0 +1,22 @@
+@tailwind components;
+
+@font-face {
+    font-family: 'LemonMilk';
+    src: url("fonts/LemonMilkRegular.otf") format('opentype');
+}
+@font-face {
+    font-family: 'LovelyCoffee';
+    src: url("fonts/LovelyCoffee.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'BloodCrow';
+    src: url("fonts/BloodCrow.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'LoveNature';
+    src: url("fonts/LoveNature.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Terminess';
+    src: url("fonts/Terminess.ttf") format('truetype');
+}

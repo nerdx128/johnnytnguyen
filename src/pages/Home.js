@@ -8,8 +8,7 @@ const Home = () =>{
         'flex',
         isMobile ? 'w-screen' : 'w-full',
         'h-screen',
-        'z-10',
-        isMobile ? '-mt-35' : ''
+        'z-10'
     ].join(' ');
     return (
         <section id='home' className={homeContainerCss}>

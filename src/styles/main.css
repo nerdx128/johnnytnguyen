@@ -2,19 +2,39 @@
 
 @tailwind components;
 @import "./Me.css";
-@font-face {
-    font-family: 'LemonMilk';
-    src: url("fonts/LemonMilkRegular.otf") format('opentype');
+@import "Fonts.css";
+body {
+    @apply overflow-x-hidden;
 }
-
 .bg-main {
     background-image: url('../assets/deadpool-half-face.png');
     @apply bg-right bg-contain bg-no-repeat h-full;
 }
 .bg-me {
-    background-image: url('../assets/deadpool-half-face.png');
-    @apply bg-right bg-contain bg-no-repeat h-full;
+    background-image: url('../assets/Me/bubble.png');
+    @apply bg-center bg-cover bg-no-repeat h-full;
 }
+.bg-projects {
+
+}
+/*.swiper-pagination {
+    bottom: -1rem !important;
+}*/
+.swiper-pagination {
+    top: 70%;
+}
+.swiper-pagination-bullet{
+    background-color: #fff;
+    width: 3%;
+    height: 13%;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+    background: #E5001B;
+    opacity: 1;
+}
+
 .active {
     @apply border-b-2 bg-gray-200 border-solid text-gray-500;
 }
