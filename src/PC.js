@@ -3,15 +3,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Me from "./pages/Me";
 import Experience from "./pages/Experience";
-import mExperience from "./pages/mExperience";
 import ScrollToTop from "./components/ScrollToTop";
 import Projects from "./pages/Projects";
-import mProjects from "./pages/mProjects";
 import {isMobile} from "react-device-detect";
-import Hobbies from "./pages/Hobbies";
 
 
-export default function App() {
+export default function PC() {
     const appCss = [
         'flex',
         'flex-col',
@@ -22,16 +19,14 @@ export default function App() {
     ].join(' ');
 
     return (
-        <main className={appCss + ' App'}>
-            <Router>
-                <ScrollToTop/>
-                <Home/>
-                <Me/>
-                { isMobile ? <mExperience/> : <Experience/> }
-                { isMobile ? <mProjects/> : <Projects/> }
-                <Routes>
-                </Routes>
-            </Router>
-        </main>
+        <Router>
+            <ScrollToTop/>
+            <Home/>
+            <Me/>
+            <Experience/>
+            <Projects/>
+            <Routes>
+            </Routes>
+        </Router>
     );
 }
