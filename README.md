@@ -1,7 +1,7 @@
 # My personal website app
 
 This is personal playground to test out packages and ideas with React.js
-
+[https://nerdx128.github.io/johnnytnguyen/](https://nerdx128.github.io/johnnytnguyen/)
 ## Packages that I've played with and used
 
  [React.js](https://www.npmjs.com/package/react)
